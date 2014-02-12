@@ -1,0 +1,19 @@
+doctype html
+html
+  head
+    title= title
+    link(rel='stylesheet', href='/stylesheets/style.css')
+  body
+    div#wrapper
+      div#menu
+        ul
+          li 
+            a(href="/") Home
+          li 
+            a(href="/logout") Logout
+
+      div#contentArea
+        block content
+
+    div#footer
+      span Developed by John Hannafin
